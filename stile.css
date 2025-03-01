@@ -26,3 +26,12 @@ p{
 b{
     font-size: smaller;
 }
+
+@media(max-width:576px){
+    .contanier{
+        grid-template-columns: auto;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+}
